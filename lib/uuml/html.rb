@@ -3,7 +3,7 @@
 module Uuml::HTML
   extend self
   
-  TEXT_TAGS = %w{title p a li h1 h2 h3 h4 h5 h6 div span option}
+  TEXT_TAGS = %w{title p a li h1 h2 h3 h4 h5 h6 div span option strong em b i u}
   
   def convert(html)
     replacer = lambda do |node| 
