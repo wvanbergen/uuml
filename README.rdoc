@@ -1,0 +1,9 @@
+= Uuml
+
+<i>Instant Germinification of your app!</i>
+
+This rack middleware will replace 'u' with 'ü' where appropriate, to give your web app a distinct German feel.
+
+== Installation
+
+Just add <tt>gem 'uuml'</tt> to your Rails app's Gemfile, that's it!
