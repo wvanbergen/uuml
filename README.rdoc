@@ -1,6 +1,6 @@
 = Uuml
 
-<i>Instant Germinification of your app!</i>
+<i>Instant Germanification of your app!</i>
 
 This rack middleware will replace 'u' with 'ü' where appropriate, to give your web app a distinct German feel.
 
