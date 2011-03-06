@@ -9,8 +9,8 @@ module Uuml::HTML
     replacer = lambda do |node| 
       node.content = node.content.
                           gsub(/(?<![Qq])ue/, 'ü').
-                          gsub(/(?<![QqOo])u(?![i])/, 'ü').
-                          gsub(/(?<![QqOo])U(?![Ii])/, 'Ü')
+                          gsub(/(?<![QqOoAa])u(?![i])/, 'ü').
+                          gsub(/(?<![QqOoAa])U(?![Ii])/, 'Ü')
     end
     condition = TEXT_TAGS.map { |t| "parent::#{t}"}.join(' or ')
 
